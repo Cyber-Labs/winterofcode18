@@ -1,22 +1,19 @@
 {
   "name": "website",
   "version": "0.0.0",
-  "description": "Landing page for fifth edition of InOut",
+  "description": "Official Website of Winter of Code 2018",
   "scripts": {
     "build": "gulp clean && gulp build",
     "dev": "gulp",
     "serve": "gulp serve",
     "clean": "gulp clean"
   },
-  "homepage": "https://hackinout.co",
-  "bugs": {
-    "url": "https://github.com/hackinout/website/issues"
-  },
+  "homepage": "https://winterofcode.netlify.com/",
   "license": "MIT",
-  "author": "Ajay NS <ajay.ns@outlook.com>",
+  "author": "Cyber Labs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hackinout/website"
+    "url": "https://github.com/cyber-labs/winterofcode18"
   },
   "devDependencies": {
     "browser-sync": "2.23.6",
