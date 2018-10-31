@@ -1,0 +1,34 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "description": "Landing page for fifth edition of InOut",
+  "scripts": {
+    "build": "gulp clean && gulp build",
+    "dev": "gulp",
+    "serve": "gulp serve",
+    "clean": "gulp clean"
+  },
+  "homepage": "https://hackinout.co",
+  "bugs": {
+    "url": "https://github.com/hackinout/website/issues"
+  },
+  "license": "MIT",
+  "author": "Ajay NS <ajay.ns@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackinout/website"
+  },
+  "devDependencies": {
+    "browser-sync": "2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "3.9.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "3.0.0",
+    "imagemin-mozjpeg": "^7.0.0"
+  }
+}
