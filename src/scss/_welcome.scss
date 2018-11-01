@@ -1,9 +1,11 @@
 #welcome {
-  background-color: $pink-light;
-  color: $black;
+  // background-color: $pink-light;
+  background-color: #06addb;
+  color: white;
 
   p {
-    color: $black;
+    // color: $black;
+    color: white;
   }
 
   .cards > [class*="col-"] {
@@ -21,7 +23,8 @@
       .heading {
         font-size: $font-size-base;
         font-weight: bold;
-        color: $blue-dark;
+        // color: $blue-dark;
+        color: white;
         margin-bottom: 8px;
       }
 
