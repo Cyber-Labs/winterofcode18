@@ -15,7 +15,13 @@
       color: white;
       
       img {
-        width: 300px;
+        width: 60px;
+        
+        
+      }
+      i {
+        vertical-align:middle;
+        
       }
 
       span {
@@ -49,6 +55,14 @@
 
         &:hover {
           color: $blue-dark;
+        }
+
+        i.fa-facebook-f {
+          color: #3B5998;
+        }
+
+        i.fa-twitter {
+          color: #00C6FF;
         }
       }
     }
