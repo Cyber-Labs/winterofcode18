@@ -50,12 +50,16 @@
   <meta name="theme-color" content="#6bc8b0" />
   <link rel="manifest" href="/manifest.json">
 
+  <!-- Fontawesome stylesheets -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/brands.css" integrity="sha384-BCEeiNUiLzxxoeYaIu7jJqq0aVVz2O2Ig4WbWEmRQ2Dx/AAxNV1wMDBXyyrxw1Zd" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/fontawesome.css" integrity="sha384-HU5rcgG/yUrsDGWsVACclYdzdCcn5yU8V/3V84zSrPDHwZEdjykadlgI6RHrxGrJ" crossorigin="anonymous">
+
   <!-- Bootstrap core CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/main.min.css" rel="stylesheet">
-
+  
 </head>
 
 <body>
@@ -125,7 +129,7 @@
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
       <div class="container">
         <a class="brand-title js-scroll-trigger" href="#header">
-          <!-- <img src="img/woc_logo.png" alt="Winter of Code logo" /> -->
+          <img src="img/logos/logo-fullsize.png" alt="Winter of Code logo" />
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
           aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -144,16 +148,21 @@
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
             </li>
-            <!-- TEAM PAGE WIP
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="/team">Team</a>
+              <a class="nav-link" href="https://www.facebook.com/labscyber" target="_blank">
+                <i class="fab fa-facebook-f">  </i>
+              </a>
             </li>
-            -->
-          </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+          </ul>        
         </div>
       </div>
     </nav>
@@ -539,7 +548,7 @@
     </div>
   </section>
 
-  
+
 
   <!-- FAQs -->
   <section id="faq">
@@ -810,84 +819,12 @@
           <img class="img-fluid" src="img/title-see-you-soon.png" alt="See You Soon">
           <div class="mt-5 mx-auto"></div>
           <a class="btn btn-primary btn-lg py-3 px-5 apply-btn" href="https://devfolio.co/" style="display: inline-block">
-            Go to Devfolio Dashboard
+            Register Now!
           </a>
-          <div class="timer-text" id="timer">Applications are closed. See you in the next edition!</div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Footer -->
-  <section id="footer">
-    <!-- Social Links -->
-    <!-- <div id="social">
-      <div class="container">
-        <div class="social-links">
-          <div class="row">
-            <a target="_blank" href="https://twitter.com/hackinoutco" class="col-4 social-link twitter">
-              <span class="social-icon twitter"></span>
-            </a>
-            <a target="_blank" href="https://www.facebook.com/hackinout/" class="col-4 social-link facebook">
-              <span class="social-icon facebook"></span>
-            </a>
-            <a target="_blank" href="https://www.instagram.com/hackinoutco/" class="col-4 social-link instagram">
-              <span class="social-icon instagram"></span>
-            </a>
-            <a target="_blank" href="https://www.linkedin.com/company/hackinout/" class="col-4 social-link linkedin">
-              <span class="social-icon linkedin"></span>
-            </a>
-            <a target="_blank" href="https://t.me/hackinout" class="col-4 social-link telegram">
-              <span class="social-icon telegram"></span>
-            </a>
-            <a target="_blank" href="https://medium.com/inout" class="col-4 social-link medium">
-              <span class="social-icon medium"></span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <div class="footer-image">
-      <img src="img/footer-mobile.png" alt="Footer Image" class="img-fluid d-block d-md-none" />
-      <div class="footer-animated-image">
-        <div id="footerImage" class="d-none d-md-block">
-          <img src="img/footer@2x.png" srcset="img/footer.png 1x, img/footer@2x.png 2x" alt="Footer Image" class="img-fluid background" />
-
-          <img src="img/art-circle-2@2x.png" srcset="img/art-circle-2.png 1x, img/art-circle-2@2x.png 2x" alt="circle"
-            class="art-item circle c1" />
-          <img src="img/art-circle-2@2x.png" srcset="img/art-circle-2.png 1x, img/art-circle-2@2x.png 2x" alt="circle"
-            class="art-item circle big c2" />
-
-          <img src="img/art-box@2x.png" srcset="img/art-box.png 1x, img/art-box@2x.png 2x" alt="box" class="art-item box b1" />
-          <img src="img/art-box@2x.png" srcset="img/art-box.png 1x, img/art-box@2x.png 2x" alt="box" class="art-item box b2" />
-
-          <img src="img/art-car@2x.png" srcset="img/art-car.png 1x, img/art-car@2x.png 2x" alt="car" class="art-item vehicle v1" />
-        </div>
-      </div>
-      <div class="footer-container position-relative">
-        <div class="container">
-
-          <div class="footer-bar d-flex justify-content-between flex-column flex-md-row align-items-center">
-            <div>
-              <a href="/code-of-conduct">Code of Conduct</a>
-            </div>
-            <div>
-              <a href="#header" class="js-scroll-trigger">
-                <img src="img/logo-inout-white.svg" alt="InOut Logo">
-              </a>
-            </div>
-            <div>
-              <a href="https://github.com/hackinout" target="_blank">
-                &lt;/&gt; with &#9829;
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
