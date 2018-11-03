@@ -20,7 +20,7 @@
       id: "iot",
       title: "Web Development",
       body:
-        "Web development broadly refers to the tasks associated with developing websites for hosting via intranet or internet. The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks.Web development is also known as website development.",
+        "Practically every organization in existence is interacting with people via the web, making the position of a web developer one of the most sought after. Companies are investing in and expanding their online presence and this gives one an excellent opportunity to find position in any location around the world in the field of web development.",
       img: "img/tracks-wd.png"
     },
     // {
@@ -34,7 +34,7 @@
       id: "fintech",
       title: "App Development",
       body:
-        "One of the more popular forms of coding in recent times is the creation of applications, or apps, that run on mobile devices like phones and tablets. You probably use a range of different apps in your everyday life. Wouldn’t it be cool to create one of your own?",
+        "The world is officially mobile and almost every major company with an internet presence also has an associated app that trailors and extends its services to the mobile user. A lucrative and in-demand skill to work upon.",
       img: "img/tracks-ad.png"
     },
     // {
@@ -55,7 +55,7 @@
       id: "ml",
       title: "Machine Learning",
       body:
-        "Are you fascinated by how Netflix recommends the movies you’ll like? Have you wondered what is the Google algorithm that shows you such accurate search results? Machine Learning is behind these innovations. It represents a key evolution in the fields of computer science, data analysis, software engineering, and artificial intelligence.",
+        "What future holds for machine learning can be described for sure with one word;Exciting. From ranking sports teams and plotting the path of movie zombies, from identifying trending news topics to building recommendation engines, machine learning can be much more fascinating.",
       img: "img/tracks-ml.png"
     }
     // {
