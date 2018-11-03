@@ -2,6 +2,17 @@
   padding-top: 8px;
   margin: -44px auto;
 
+  .drop_container{
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0px;
+    font-family: "San Francisco",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    text-decoration-color: rgba(0,0,0,.5);
+    // border: none;
+  }
+
+
   .navbar {
     height: 80px;
     background-color: $white;
@@ -13,15 +24,15 @@
       font-size: 18px;
       font-weight: bold;
       color: white;
-      
+
       img {
         width: 60px;
-        
-        
+
+
       }
       i {
         vertical-align:middle;
-        
+
       }
 
       span {
