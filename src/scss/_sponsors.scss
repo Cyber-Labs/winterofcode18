@@ -1,7 +1,15 @@
+
+
 #sponsors {
   color: $blue-dark;
   background-color: #fff689;
 
+  .text{
+    font-family: 'Alegreya Sans SC';font-size: 8.2vh;
+    text-shadow:2px 2px #221352;
+    color: #221352;
+    }
+  
   a {
     color: $blue-dark;
     font-weight: bold;
