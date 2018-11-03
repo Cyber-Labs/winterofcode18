@@ -1,13 +1,5 @@
 #tracks {
-  // background-color: $blue;
   background-color: #16c26b;
-
-  .text{
-    font-family: 'Alegreya Sans SC';font-size: 8.2vh;
-    text-shadow:2px 2px #ee4908;
-    color: #ee4908;
-    }
-
   .track-list {
     background-color: $pink-light;
     border-radius: 10px;
@@ -43,7 +35,7 @@
       }
 
       .subtitle {
-        color: $blue;
+        color: black;
         font-size: $font-size-small;
 
         &::after {
@@ -65,7 +57,7 @@
 
       &:hover {
         border: 2px solid $white;
-        background-color: $green;
+        background-color: $blue;
         transform: scale(1.05);
         z-index: 10;
 
@@ -142,7 +134,6 @@
     .modal-body {
       padding: 16px 0;
       font-size: 21px;
-
       @media (min-width: 991px) {
         min-height: 320px;
       }
