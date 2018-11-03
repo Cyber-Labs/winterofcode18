@@ -2,26 +2,33 @@
   padding-top: 8px;
   margin: -44px auto;
 
+  .drop_container{
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0px;
+    font-family: "San Francisco", Helvetica ,sans-serif;
+    text-transform: uppercase;
+  }
+
+
   .navbar {
     height: 80px;
     background-color: $white;
     transition: all 0.2s ease-in;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
 
     .brand-title {
       font-size: 18px;
       font-weight: bold;
       color: white;
-      
+
       img {
         width: 60px;
-        
-        
       }
       i {
         vertical-align:middle;
-        
+
       }
 
       span {
@@ -45,8 +52,10 @@
       }
 
       .nav-link {
+        background: white;
         font-weight: bold;
         font-size: $font-size-small;
+        transition: background-color 0.2s ease-in;
 
         &.active,
         &.focus {
@@ -55,6 +64,7 @@
 
         &:hover {
           color: $blue-dark;
+          background-color: $blue-light;
         }
 
         i.fa-facebook-f {

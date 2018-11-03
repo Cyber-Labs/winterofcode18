@@ -1,6 +1,11 @@
 #about {
   background-color: $blue;
 
+  h2.section-heading {
+    text-align: left;
+    color: white;
+  }
+
   .art {
     .text {
       margin-left: 8rem;
