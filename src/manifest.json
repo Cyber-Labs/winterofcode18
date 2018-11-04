@@ -1,6 +1,6 @@
 {
-  "name": "InOut 5.0 | India's Largest Community Hackathon",
-  "short_name": "InOut 5",
+  "name": "Winter of Code 1.0 | Dec 10 - Jan 10",
+  "short_name": "WoC 1.0",
   "icons": [
     {
       "src": "/favicons/android-icon-36x36.png",
@@ -40,6 +40,6 @@
     }
   ],
   "display": "standalone",
-  "theme_color": "#6bc8b0",
-  "background_color": "#8166cd"
+  "theme_color": "#06addb",
+  "background_color": "white"
 }
