@@ -40,6 +40,6 @@
     }
   ],
   "display": "standalone",
-  "theme_color": "#6bc8b0",
-  "background_color": "#8166cd"
+  "theme_color": "#06addb",
+  "background_color": "white"
 }

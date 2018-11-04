@@ -8,8 +8,17 @@
     padding: 0px;
     font-family: "San Francisco", Helvetica ,sans-serif;
     text-transform: uppercase;
-  }
 
+    .dropdown-menu {
+      box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+    }
+
+    a.dropdown-item {
+      text-align: center;
+      color: rgba(0,0,0,.5) !important;
+    }
+  
+  }
 
   .navbar {
     height: 80px;
