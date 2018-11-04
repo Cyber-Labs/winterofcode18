@@ -52,6 +52,11 @@ section {
 
 h2 {
   font-size: 48px;
+
+  &.section-heading {
+    text-align: center;
+    color: $blue-black;
+  }
 }
 
 

@@ -1,6 +1,10 @@
 #about {
-  background-color: #06addb;
-  // background-color: $green;
+  background-color: $blue;
+
+  h2.section-heading {
+    text-align: left;
+    color: white;
+  }
 
   .art {
     .text {
