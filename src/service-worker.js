@@ -13,6 +13,7 @@ var filesToCache = [
   "img/art-woc-mobile.jpeg",
   "img/logos/logo-fullsize.png",
   "img/art-30.png",
+  "img/art-100.png",
   "img/cyberlabs_logo.svg",
   "img/webpack_logo.svg",
   "img/no-prerequisites.jpeg",
