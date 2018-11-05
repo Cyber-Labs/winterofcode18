@@ -8,7 +8,7 @@
       title: "Web Development",
       body:
         "Practically every organization in existence is interacting with people via the web, making the position of a web developer one of the most sought after. Companies are investing in and expanding their online presence and this gives one an excellent opportunity to find position in any location around the world in the field of web development.",
-      img: "img/tracks-wd.png"
+      img: "img/tracks-webd.png"
     },
    
     {
