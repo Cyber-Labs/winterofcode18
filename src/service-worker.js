@@ -1,15 +1,27 @@
 var log = console.log.bind(console); //bind our console to a variable
 var version = "0.0.1";
-var cacheName = "swInOut";
+var cacheName = "WoC";
 var cache = cacheName + "-" + version;
 var filesToCache = [
   "css/main.min.css",
   "js/main.min.js",
+  "js/owl.carousel.min.js",
+  "js/track-modal.min.js",
   "fonts/sanfranciscodisplay-regular-webfont.woff",
-  "img/hero.png",
-  "img/hero-mobile.png",
-  "img/footer.png",
-  "img/footer-mobile.png"
+
+  "img/art-woc.jpg",
+  "img/art-woc-mobile.jpeg",
+  "img/logos/logo-fullsize.png",
+  "img/art-30.png",
+  "img/art-100.png",
+  "img/cyberlabs_logo.svg",
+  "img/webpack_logo.svg",
+  "img/no-prerequisites.jpeg",
+  "img/no-fee.jpeg",
+  "img/to-build.jpeg",
+  "img/tracks-webd.png",
+  "img/tracks-ml.png",
+  "img/prize.jpeg"
 ];
 
 //Add event listener for install

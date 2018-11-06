@@ -26,6 +26,7 @@
     justify-content: center;
     flex-wrap: nowrap;
     border: none;
+    color: white;
 
     .nav-item {
       width: 100%;
@@ -35,18 +36,6 @@
       font-weight: bold;
       border: none;
       border-radius: 10px 10px 0 0;
-
-      &#schedule-day {
-        &-1 {
-          color: $blue;
-        }
-        &-2 {
-          color: $pink;
-        }
-        &-3 {
-          color: $yellow;
-        }
-      }
 
       &:hover {
         background-color: $blue-light;
@@ -62,7 +51,7 @@
             background-color: $pink;
           }
           &-3 {
-            background-color: $yellow;
+            background-color: $blue;
           }
         }
       }
@@ -144,14 +133,14 @@
     }
 
     .table-3 {
-      border: 2px solid $yellow;
+      border: 2px solid $blue;
 
       tr {
-        border-bottom: 1px solid $yellow;
+        border-bottom: 1px solid $blue;
       }
 
       td:first-child {
-        color: $yellow;
+        color: $blue;
       }
     }
   }

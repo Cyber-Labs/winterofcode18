@@ -80,6 +80,10 @@
           color: #3B5998;
         }
 
+        i.fa-github {
+          color: rgba(0,0,0,0.7);
+        }
+
         i.fa-twitter {
           color: #00C6FF;
         }
@@ -107,6 +111,7 @@
       }
 
       #navbarResponsive {
+        margin-top: 15px;
         position: absolute;
         width: 100%;
         top: calc(100% - 16px);
