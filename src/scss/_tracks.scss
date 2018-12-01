@@ -1,12 +1,12 @@
 #tracks {
-  // background-color: $blue;
-  background-color: #16c26b;
+  //background-color: $blue;
+   background-color: #16c26b;
 
-  .text{
-    font-family: 'Alegreya Sans SC';font-size: 8.2vh;
-    text-shadow:2px 2px #ee4908;
-    color: #ee4908;
-    }
+  // .text{
+  //   font-family: 'Alegreya Sans SC';font-size: 8.2vh;
+  //   text-shadow:2px 2px #ee4908;
+  //   color: #ee4908;
+  //   }
 
   .track-list {
     background-color: $pink-light;
@@ -43,7 +43,7 @@
       }
 
       .subtitle {
-        color: $blue;
+        color: black;
         font-size: $font-size-small;
 
         &::after {
