@@ -71,7 +71,7 @@ gulp.task("copy:images", function() {
     .pipe(
       imagemin([
         imageminMozjpeg({
-          quality: 90
+          quality: 50
         }),
         imagemin.gifsicle(),
         imagemin.optipng(),
