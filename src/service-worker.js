@@ -1,5 +1,5 @@
 var log = console.log.bind(console); //bind our console to a variable
-var version = "0.0.1";
+var version = "0.0.2";
 var cacheName = "WoC";
 var cache = cacheName + "-" + version;
 var filesToCache = [
@@ -21,7 +21,12 @@ var filesToCache = [
   "img/to-build.jpeg",
   "img/tracks-webd.png",
   "img/tracks-ml.png",
-  "img/prize.jpeg"
+  "img/prize.jpeg",
+
+  "img/logo_mlpack.png",
+  "img/logo_AOSSIE.png",
+  "img/logo_cyberlabs.svg",
+  "img/logo_wikimedia.png"
 ];
 
 //Add event listener for install
