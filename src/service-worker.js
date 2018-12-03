@@ -1,5 +1,5 @@
 var log = console.log.bind(console); //bind our console to a variable
-var version = "0.0.2";
+var version = "0.0.3";
 var cacheName = "WoC";
 var cache = cacheName + "-" + version;
 var filesToCache = [

@@ -15,7 +15,7 @@
       id: "fintech",
       title: "App Development",
       body:
-        "<h3 id=\"1sharedcalendar\">1. Shared Calendar</h3><ul><li><p><strong>Suggested Audience:</strong> Second years</p></li><li><p><strong>Description:</strong> Shared calendar is an android app to solve the problem of clashes of student activities in the college. You will design a calendar that will be readable</p></li><li><p><strong>Goals:</strong> </p><ul><li>Build the chrome extension up to completion/adequate progress.</li></ul></li><li><p><strong>Requirements:</strong> </p><p><ul><li>Basic knowledge of HTML, CSS and JavaScript</li></p><p><li>Fuzzy search can be implemented for searching</li></ul><p></p></li></p><p><li><p><strong>Resources:</strong></p></p><p><ul><li>Refer the tutorial <a href=\"https://developer.chrome.com/extensions/getstarted\">here</a> on how to build a chrome extension.</li></ul></p><p></li></ul></p>",
+        "<h3 id=\"1sharedcalendar\">1. Shared Calendar</h3><ul><li><p><strong>Suggested Audience:</strong> Second years</p></li><li><p><strong>Description:</strong> Shared calendar is an android app to solve the problem of clashes of student activities in the college. You will design a calendar that will be readable.</p></li><li><p><strong>Goals:</strong> </p><ul><li>Build the shared calender up to completion/adequate progress.</li></ul></li><li><p><strong>Requirements:</strong> </p><p><ul><li>Knowledge of Java, XML and Android basics.</li></p><p><li>Knowledge of database persistence.</li></ul><p></p></li></ul></p>",
       img: "img/tracks-ad.png"
     },
     
