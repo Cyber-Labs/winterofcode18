@@ -3,6 +3,14 @@
 
   var tracks = [
     {
+      id: "cybers",
+      title: "Infosec",
+      body:
+        '<h3 id="1keylogger">1. Keylogger</h3><ul><li><strong>Suggested Audience:</strong> First years and above</li><li><strong>Description:</strong> A small program which will secretly log keyboard usage, having these features (but not limited to)-</li><ol><li>Logs keyboard usage in a target computer.</li><li> Program runs in the background. </li><li>Records combination of keys used.</li></ol></li><li><p><strong>Requirements:</strong> </p><p><ul><li>Basic knowledge of Python/C++ and its libraries</li></p><p></ul></p><p></li></ul></p>\
+         <h3 id="2decrypter">2. Decrypter</h3><ul><li><strong>Suggested Audience:</strong> First years and above</li><li><strong>Description:</strong> A program to decode various types of encryption, having these features (but not limited to)-</li><ol><li>Decodes Caesar cipher.</li><li> Decodes Vignere cipher. </li><li>Decodes various RSA encryption.</li></ol></li><li><p><strong>Requirements:</strong> </p><p><ul><li>Basic knowledge of Python/C++ and its libraries</li></p><p></ul></p><p></li></ul></p>',
+      img: "img/tracks-infosec.png"
+    },
+    {
       id: "iot",
       title: "Web Development",
       body:
@@ -12,7 +20,6 @@
         <h3 id="4mlweb">4. Image Classification for the Web</h3><ul><li><strong>Suggested Audience:</strong> First years.</li><li><strong>Description:</strong>The goal of this project is to the students started with integrating machine-learning with their websites using pre-build tools and libraries with the follwing features (but not limited to) -</li></ul><ol><li>Build a basic image uploader using HTML,CSS and Javascript</li><li>Learn about ml5js and Tensorflow Js which are libraries written in javascript to build lightweight machine learning applications for the web</li><li>Integrate the ml5js library and build a basic image classifier for their image uploader.</li></ol><ul><li><p><strong>Goals:</strong> </p><ul><li>Phase 1: Build the form with HTML, CSS ,Bootstrap and handling submit and image uploading with javascript. </li><li>Phase 2: Learn the basics of machine learning and ml5js . </li><li>Integrate the image classifier to the pre-build image uploader </li></ul></li><li><p><strong>Requirements:</strong> </p><ul><li>Basic knowledge of HTML, CSS and JavaScript</li></ul></li><li><p><strong>Resources:</strong></p><p><ul><li>View <a href="https://ml5js.org/getting-started/hello-ml5/2">documentation</a> of ml5.js </li></ul><p></p></li></ul></p>',
       img: "img/tracks-webd.png"
     },
-
     {
       id: "fintech",
       title: "App Development",
@@ -23,7 +30,6 @@
         <h3 id="4healthapp">4. Health Center App</h3><ul><li><p><strong>Suggested Audience:</strong> First years</p></li><li><p><strong>Description:</strong> This app is meant to track down the treatment for several patients in a health center by means of a simple and interactive mobile application. The app should have the following features :- </p></li><ol><li>Authentication of users and creating profiles.</li><li>Recycler view to show all patients.</li><li>Activity to input daily data/stats for each patient.</li><li>Firebase database  for storing and retrieving data.</li><li>Dispalying statistical data in form of line graphs.</li><li>Interactive UI</li><li>Additional features/improvements that can be added.</li></ol></li><li><p><strong>Goals:</strong> </p><p><ul><li>Building the app to completion/adequate progress.</li></ul></p><li><p><strong>Requirements:</strong> </p><p><ul><li>Knowledge of Java, XML and Android basics.</li></p><p><li>Recycler View</li></p><p><li>Firebase</li></p><p><li>Using API for  graphs.</li></p></ul><p></p></li></ul></p>',
       img: "img/tracks-ad.png"
     },
-
     {
       id: "ml",
       title: "Machine Learning",
