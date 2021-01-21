@@ -84,6 +84,23 @@
 
 // Track modal styling
 #trackModal {
+  .card-header{
+    cursor: pointer;
+    display: flex;
+    padding: 0.6rem 1.25rem;
+    &::before {
+      content: url("../img/chevron-up.png");
+      padding-top: 7px;
+      margin-right: 1rem;
+      transition: all 0.4s ease-out;
+    }
+
+    &.collapsed {
+      &::before {
+        content: url("../img/chevron-down.png");
+      }
+    }
+  }
   .modal-content {
     border: none;
     border-radius: 10px;
