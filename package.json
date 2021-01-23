@@ -16,11 +16,11 @@
     "url": "https://github.com/cyber-labs/winterofcode18"
   },
   "dependencies": {
+    "gulp": "^3.9.1",
     "natives": "^1.1.6"
   },
   "devDependencies": {
     "browser-sync": "2.23.6",
-    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "3.9.2",
