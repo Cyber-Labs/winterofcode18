@@ -16,7 +16,7 @@
     "url": "https://github.com/cyber-labs/winterofcode18"
   },
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "natives": "^1.1.6"
   },
   "devDependencies": {
